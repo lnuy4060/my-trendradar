@@ -38,7 +38,7 @@ on:
     - cron: "33 * * * *"
 
   workflow_dispatch:
-
+# Get Hot News
 concurrency:
   group: crawler-${{ github.ref_name }}
   cancel-in-progress: true
